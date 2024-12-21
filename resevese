@@ -1,0 +1,368 @@
+<div class="ion">
+<p> ABOUT US </p>
+<p> BUSINESS </p>
+<p> PEOPLE </p>
+<p> PRESS </p>
+<p> CONTACT US </p>
+<p> INVESTORS </p>
+<p> BLOG </p>
+<p> IMPACT </p>
+</div>
+
+<footer>
+
+   
+    <article>
+         <div class="bimp">
+    <img class="pple" src="j-group-white.d29b831.svg">
+    </div>
+<section>
+<p class="class"> 
+    ABOUT 
+</p>
+
+<div class="digital">
+    <p class="zx">Impact Stories</p>
+    <p class="zx">Locations</p>
+    <p class="zx">Leadership</p>
+</div>
+</section>
+<section>
+<p class="class">
+     BUSINESS
+     </p>
+    
+     <div class="digital">
+        <p class="zx">Marketplace</p>
+        <p class="zx">Logistics</p>
+        <p class="zx">JumiaPay</p>
+    </div>
+    </section>
+<section>
+<p class="class"> PEOPLE </p>
+
+<div class="digital">
+    <p class="zx">Find your Dream Job </p>
+    <p class="zx">Faces of Jumia</p>
+    <p class="zx">See all Opportunities</p>
+    <p class="zx">Data Privacy Policy</p>
+</div>
+
+
+</section>
+<section class="hipop"><p class="class"> PRESS </p>
+<div class="digital">
+    <p class="zx">News</p>
+    <p class="zx">Media Kit</p>
+
+</div>
+</section>
+<section class="dee">
+<p class="class"> 
+CONTACT US 
+</p>
+<div class="digital">
+<p class="class"> INVESTORS </p>
+<p class="class"> BLOG </p>
+<p class="class"> IMPACT </p>
+</div>
+
+</section>
+
+</article>
+
+<article class="freaky">
+<div>
+    Copyright  2024 - Jumia
+</div>
+<div>
+   
+</div>
+<div></div>
+</article>
+    
+    
+    
+    <div>
+    <img class="cud" src="icons8-hamburger-menu.svg">
+</div>
+    
+.hop{
+width: fit-content;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+margin-top: 5rem;
+background-color: rgb(255, 255, 255);
+display: flex;  
+font-size: 1.3rem;
+
+align-items: center;
+color: rgb(0, 0, 0);
+}
+
+.hop > p{
+font-weight: 100;
+  display: flex;
+  align-items: center;
+
+  }
+
+.unt{
+  display: flex;
+  align-items: center;
+  margin-left: 25rem;
+}
+ 
+.xia{
+
+}
+
+
+
+        <div class="ion">
+<p>Download</p>
+<p>Nitro</p>
+<p>Discover</p>
+<p>Quests</p>
+<p>Safety</p>
+<p>Support</p>
+<p>Blog</p>
+<p>Careers</p>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</footer>
+
+
+<section class="fifthgrid">
+
+    <div>
+<p class="xin">
+Our Latest News
+</p>
+    </div>
+<div class="carter">
+    <div>
+<p class="xon">
+    A Fresh Reset For Jumia Technologies
+</p>
+
+<p class="royxon">
+    November 12, 2024 | Company News
+</p>
+</div>
+
+<div class="dred">
+    <img class="vg" src="icons8-arrow-right-50.png">
+</div>
+
+</div>
+
+    
+<div class="carter">
+    <div class="name">
+        <p class="xon">
+            Currency pressure drives Jumia’s revenue to $36.5mn in Q3’24 (CNBC Africa)
+        </p>
+        
+        <p class="royxon">
+            November 11, 2024 | Company News
+        </p>
+        </div>
+        
+        <div class="dred">
+            <img class="vg" src="icons8-arrow-right-50.png">
+        </div>
+</div>
+</div>
+
+<div class="carter">
+    <div>
+        <p class="xon">
+
+
+Jumia Ghana Expands Operations with New State-of-the-Art Warehouse
+
+
+        </p>
+        
+        <p class="royxon">
+            November 11, 2024 | Company News
+        </p>
+        </div>
+        
+        <div class="dred">
+            <img class="vg" src="icons8-arrow-right-50.png">
+        </div>
+        
+        
+</div>
+<button class="bih">Press</button>
+</div>
+</section>
+
+<article class="freaky">
+<div>
+    Copyright  2024 - Jumia
+</div>
+<div>
+   
+</div>
+<div></div>
+</article>
+
+
+
+<p>Product</p>
+<p>Download</p>
+<p>Nitro</p>
+<p>Status</p>
+<p>App Directory</p>
+<p>New Mobile Experience</p>
+
+
+<div class="shows"> 
+    <img class="fag" src="65a4fe4237b6a1c4fa714f76_x.svg"> 
+    <img class="fag" src="65a4fe42d907d27f3dead7a0_instagram.svg"> 
+    <img class="fag" src="65a4fe4173c1df8be608c8a2_facebook.svg"> 
+    <img class="fag" src="65a4fe42d907d27f3dead7ad_youtube.svg"> 
+    <img class="fag" src="65a4fe4152ae5860036dadf1_tiktok.svg"> 
+ </div>
+
+ <div class="feel">
+    <img class="flag" src="rb_2147837199.png"> <p>English</p>
+</div>
+
+
+
+
+<article>
+
+    <section class="zip">
+        <p class="class"> 
+            Product
+        </p>
+        
+        <div class="digital">
+            
+            <p>Download</p>
+            <p>Nitro</p>
+            <p>Status</p>
+            <p>App Directory</p>
+            <p>New Mobile Experience</p>
+        </div>
+        </section>
+
+        <section class="zip">
+            <p class="class"> 
+                Company
+            </p>
+            
+            <div class="digital">
+                
+                <p>About</p>
+                <p>Jobs</p>
+                <p>Brand</p>
+                <p>Newsroom</p>
+            </div>
+            </section>
+
+
+
+
+
+
+
+</article>
+
+<article class="article">
+
+    <section class="zip">
+        <p class="class"> 
+            Resources
+        </p>
+        
+        <div class="digital">
+            <p>New Mobile Experience</p>
+            <p>Download</p>
+            <p>Nitro</p>
+            <p>Status</p>
+            <p>App Directory</p>
+            <p>New Mobile Experience</p>
+            <p>New Mobile Experience</p>
+            <p>Download</p>
+            <p>Nitro</p>
+            <p>Status</p>
+            <p>App Directory</p>
+            <p>New Mobile Experience</p>
+
+
+
+
+            
+
+
+
+
+
+        </div>
+        </section>
+
+        <section class="zip">
+         
+            
+            <div class="digital">
+                   <p class="cass"> 
+                Policies
+            </p>
+                <p>Terms</p>
+                <p>Privacy</p>
+                <p>Cookie Settings</p>
+                <p>Guidelines</p>
+                <p>Acknowledgements</p>
+                <p>Licenses</p>
+                <p>Company Information</p>
+            </div>
+            </section>
+
+
+
+
+
+
+
+</article>
+         
+
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
