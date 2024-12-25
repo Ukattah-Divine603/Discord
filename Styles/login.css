@@ -264,7 +264,7 @@ justify-content: center;
     100%{
      color: rgb(38, 55, 207);
 
-    scale: 1;
+    scale:. 8;
     }
     }
     @keyframes beat{
@@ -273,7 +273,7 @@ justify-content: center;
       }
       
       50%{
-        scale: 1.1;
+        scale:. 8;
      color:  blueviolet;
      
       }
