@@ -1,0 +1,343 @@
+body{
+    width: auto;
+    margin: 0%;
+    background: radial-gradient(to bottom, rgb(79, 0, 206), blue);
+      font-family: gg sans;
+    backdrop-filter: blur(360);
+    background-color: rgb(71, 0, 204);
+  }
+  
+  section{
+
+
+
+
+  }
+.greetings{
+ line-height: 1.7rem;
+}
+  .noir{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;  
+     animation: spin 3s infinite ease;
+  }
+
+    
+    @keyframes spin{
+    0%{
+    
+    }
+    
+    50%{
+      scale: 1.5;
+   color:  blueviolet;
+   
+    }
+    
+    100%{
+     color: rgb(38, 55, 207);
+
+    scale: 2;
+    }
+    }
+  
+  article{
+    text-align: center;
+  }
+
+  .bonjour{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .bonsoir{
+    font-family: Nunito;
+    font-size: 1.2rem;
+    margin-top: auto;
+    color: gray;
+  }
+
+  .french{
+    color: rgb(0, 171, 228);
+    margin-top: auto;
+  }
+
+
+
+  .french:hover{
+    color: rgb(0, 171, 228);
+    margin-top: auto;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .frech{
+    color: rgb(0, 171, 228);
+
+  }
+
+  button{
+    width: 100%;
+    font-family: Nunito;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    height: 3rem;
+    border-radius: .3rem;
+    border: solid;
+    border-style: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    background-color:  rgb(38, 55, 207);
+  }
+
+  button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: white;
+    color:  rgb(38, 55, 207);
+    transition: 0.3s;
+    font-weight: 800;
+  }
+
+  button:active{
+    cursor: pointer;
+    transform: scale(0.6);
+    background-color:   rgb(38, 55, 207);
+    color:white;
+    transition: 0.3s;
+    font-weight: 800;
+  }
+  
+  
+  .frech:hover{
+    color: rgb(0, 171, 228);
+
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .bonsoir > span{
+    font-weight: 700;
+  }
+
+  .kongwar{
+    font-family: Oswald;
+    color: gray;
+    margin-bottom: auto;
+  }
+
+  main{   
+       width: 
+       47rem;
+height: 22rem;
+color: gainsboro;
+background-color: rgb(38, 34, 43);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.411);
+    display: grid;   
+     margin-left: 20%;
+     margin-top: 7%;
+     padding-bottom: 6rem;
+     padding-left: 3rem;
+     padding-top: 2rem;
+     border-radius: .5rem;
+     align-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  input{
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    border: solid;
+    text-align: left;
+    border-style: none;
+    color: white;
+    background-color: rgb(10, 10, 10);
+  }
+
+  input:focus{
+    color: white;
+    border: none;
+  }
+
+article > div > img{
+  transition: transform 0.3s ease, background-color 0.3s ease;
+
+}
+
+article > div > img:hover{
+    transform: scale(1.2);
+
+  transition: 0.3s;
+
+}
+
+  .onion{
+    color: rgb(0, 171, 228);
+font-weight: 100;
+  }
+
+
+
+  .onion:hover{
+    color: rgb(0, 171, 228);
+
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 600px){
+  article{
+    display: none;
+  }
+
+  main{
+   margin: 0%;
+display: flex;
+flex-direction: row;
+width: auto;
+
+padding-left: 1rem;
+gap: 2rem;
+padding-right: 1rem;
+padding-bottom: 100vw;
+color: gainsboro;
+background-color: rgb(38, 34, 43);
+padding-top: 5rem;
+border-radius: 0;
+justify-content: center;
+
+  }
+  header > img{
+    display: none;
+    }
+  
+  input{
+    width: 18rem;
+    height: 3rem;
+    border-radius: .5rem;
+    border: solid;
+    text-align: left;
+    border-style: none;
+    color: white;
+    background-color: rgb(10, 10, 10);
+  }
+
+  input:focus{
+    color: white;
+    border: none;
+  }
+
+  section{
+    gap: 2rem;
+  } 
+   .img{
+    width: 10rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    animation: beat 3s infinite ease;
+  }
+  .noir{
+    font-family: Nunito;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-align: center;  
+     animation: spin 3s infinite ease;
+  }
+
+    
+    @keyframes spin{
+    0%{
+    
+    }
+    
+    50%{
+      scale: .5;
+   color:  blueviolet;
+   
+    }
+    
+    100%{
+     color: rgb(38, 55, 207);
+
+    scale: 1.5;
+    }
+    }
+    @keyframes beat{
+      0%{
+      
+      }
+      
+      50%{
+        scale: 1.1;
+     color:  blueviolet;
+     
+      }
+      
+      100%{
+       color: rgb(38, 55, 207);
+  
+      scale: 1;
+      }
+      }
+    }
+  
+    @media screen and (min-width: 700px) and (max-width: 950px){
+        .img{
+            display: none;
+        }
+article{
+    display: none;
+}
+
+        main{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    width: auto;
+    display: grid;
+    padding-right: 2rem;
+    grid-template-columns: 1fr;
+            margin-top: auto;
+            margin-bottom: auto;
+        }  
+          header{
+      padding: 1.5rem;
+    }
+
+    header > img{
+      width: 6rem;
+      }
+
+      input{
+        width: 100%;
+      }
+
+    }
+
+
+
+    @media screen and (min-width: 950px) and (max-width: 2000px){
+      .img{
+        display: none;
+      }
+
+      header{
+        padding: 1.5rem;
+      }
+  
+      header > img{
+      width: 9rem;
+      }
+      
+      main{
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+
+      }
+
+    }

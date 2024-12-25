@@ -353,16 +353,69 @@ Jumia Ghana Expands Operations with New State-of-the-Art Warehouse
 
 <hr>
 
+width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            display: flex;
+            flex-direction: row-reverse;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+
+
+width: auto;
+  margin: 2rem;
+  gap: 1.5rem;
+      padding-left: 2rem;
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+      color: white;
+      font-size: 16px;
+      margin-top: 14rem;
+  display: flex;
+flex-direction: row-reverse;
+      
+      background-color: rgba(255, 255, 255, 0.3);
+  
+
+      backdrop-filter: blur(10px);
+  
+      border-radius: 3rem;
+      border: 1px solid rgba(255, 255, 255, 0.4);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
 
 
 
+      display: grid;
+grid-template-columns: repeat(1fr 1fr);
 
-
-
-
-
-
-
+width: auto;
+  background-color: rgb(89, 51, 255);
+  padding: 1rem;
+  display: flex;
+  gap: 4rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  flex-direction: row;
+  align-items: center;
 
 

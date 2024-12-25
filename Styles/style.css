@@ -1,18 +1,27 @@
 body{
-    background-image: url('/artistic-blurry-colorful-wallpaper-background_58702-8585.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    width: auto;
+ /* background-image: url('/artistic-blurry-colorful-wallpaper-background_58702-8585.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;*/
+  width: auto;
+margin: 0%;
+background-color:  rgb(79, 0, 206);
+  font-family: gg sans;
+backdrop-filter: blur(360);
+}
+
+.body{
+  width: auto;
   margin: 0%;
+  background: linear-gradient(to bottom, rgb(79, 0, 206), blue);
     font-family: gg sans;
- backdrop-filter: blur(360);
+  backdrop-filter: blur(360);
 }
 
 header > div > img{
-    width: 8rem;
-    
+  width: 8rem;
+  
 }
 
 marquee{
@@ -21,103 +30,119 @@ animation: infinite;
 }
 
 header{
-    width: auto;
-    padding-left: 5.8rem;
-    padding-top: 0.5rem;
-    display: flex;
-    height: auto;
-    justify-content: space-between;
-    padding-right: 5.8rem;
-  
-    font-weight: 600;
-    align-items: center;
-    font-family:  gg sans;
- 
+  width: auto;
+  padding-left: 5.8rem;
+  padding-top: 0.5rem;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding-right: 5.8rem;
+gap: auto;
+  font-weight: 600;
+  align-items: center;
+  font-family:  gg sans;
+
 }
 
 button {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    width: 4rem;
-    height: 2.5rem;
-    cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  width: 4.5rem;
+  height: 1.5rem;
+  cursor: pointer;
 
-    border: none;
-    font-family: gg sans;
-    box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
-    border-radius: 1.5rem;
-    margin-left: 3rem;
-    border-style: none;
-    font-size: small;
-    font-weight: 700;
-  }
+  border: none;
+  font-family: gg sans;
+  box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
+  border-top-left-radius: 4rem;
+  margin-left: 3rem;
+  border-style: none;
+  font-size: small;
+  font-weight: 700;
+}
+
+button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+button:active {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  transition: 0.3s;
   
-  button:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
-    transition: 0.3s;
-  }
-
-  button:active {
-    color: rgb(0, 0, 0);
-    background-color: rgb(255, 255, 255);
-    transition: 0.3s;
-  }
+}
 
 
 .ion{
-    margin-right: 10rem;
-    margin-left: 8rem;
-    flex: 1;
-    inline-size: 0%;
-    display: flex;
+  margin-right: 10rem;
+  margin-left: 8rem;
+  flex: 1;
+  inline-size: 0%;
+  display: flex;
 word-spacing: 0%;
 color: rgb(255, 255, 255);
-    justify-content: space-between;
-    align-items: center;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .preconnect:hover{
 text-decoration: underline;
 cursor: pointer;
 }
-  
+
 
 .preconnect:active{
-  text-decoration: none;
-  cursor: pointer;
-  color: #000;
-  }
+text-decoration: none;
+cursor: pointer;
+color: #000;
+}
 
 .cud{
-  display: ;
+
 }
 
 .firstgrid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 10rem;
-  margin-right: 1rem;
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-left: 10rem;
+margin-right: 1rem;
 }
 .duy{
-  width: 45rem;
+width: 45rem;
 height: rem;
 }
 .lok{
-  color: rgb(255, 255, 255);
-  font-size: 4rem;
-  font-weight: 600;
-  font-family: Oswald;
+color: rgb(255, 255, 255);
+font-size: 4rem;
+font-weight: 600;
+font-family: Oswald;
 }
 
 .loki{
-  color: rgb(221, 220, 220);
+color: rgb(221, 220, 220);
 font-size: 1.5rem;
 margin-top: -2.5rem;
 font-weight: 400;
 font-family: Nunito;
 }
 .hop{
+width: fit-content;
+padding-left: 2rem;
+padding-right: 2rem;
+padding-top: 1.5rem;
+padding-bottom: 1.5rem;
+margin-top: 5rem;
+background-color: rgb(255, 255, 255);
+display: flex;  
+font-size: 1.3rem;
+
+align-items: center;
+color: rgb(0, 0, 0);
+}
+
+.hopi{
   width: fit-content;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -131,96 +156,79 @@ font-family: Nunito;
   align-items: center;
   color: rgb(0, 0, 0);
   }
-  
-  .hopi{
-    width: fit-content;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-top: 5rem;
-    background-color: rgb(255, 255, 255);
-    display: flex;  
-    font-size: 1.3rem;
-    
-    align-items: center;
-    color: rgb(0, 0, 0);
-    }
 
-  .hop > p{
-  font-weight: 100;
-    display: flex;
-    align-items: center;
-  
-    }
-  
-  .unt{
-    display: flex;
-    align-items: center;
-    margin-left: 25rem;
-  }
-   
-  .xia{
-  
+.hop > p{
+font-weight: 100;
+  display: flex;
+  align-items: center;
+
   }
 
-  video{
-    width: 45rem;
-    border-radius: 3rem;
+.unt{
+  display: flex;
+  align-items: center;
+  margin-left: 25rem;
+}
+ 
+.xia{
+
+}
+
+video{
+  width: 45rem;
+  border-radius: 3rem;
+}
+
+    .lk{
+      color: rgb(255, 255, 255);
+      font-size: 4rem;
+      font-weight: 600;
+      font-family: Oswald;
+  }
+  .loi{
+    color: rgb(221, 220, 220);
+    font-size: 1.5rem;
+    margin-top: -2.5rem;
+    font-weight: 400;
+    font-family: Nunito;
+
   }
 
-      .lk{
-        color: rgb(255, 255, 255);
-        font-size: 4rem;
-        font-weight: 600;
-        font-family: Oswald;
-    }
-    .loi{
-      color: rgb(221, 220, 220);
-      font-size: 1.5rem;
-      margin-top: -2.5rem;
-      font-weight: 400;
-      font-family: Nunito;
-
-    }
-
-  .secondgrid {
-    width: auto;
+.secondgrid {
+  width: auto;
 margin: 2rem;
 gap: 1.5rem;
-    padding: 1rem;
-    color: white;
-    font-size: 16px;
- 
+  padding: 1rem;
+  color: white;
+  font-size: 16px;
+
 display: grid;
 grid-template-columns: 1fr 1fr;
-    /* Transparent background */
-    background-color: rgba(255, 255, 255, 0.3);
 
-    /* Apply blur effect */
-    backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.3);
 
-    /* Optional: Style the edges */
-    border-radius: 3rem;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+
+  border-radius: 3rem;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 
-  .dopiy > p{
-    color: rgb(255, 255, 255);
-    font-size: 4rem;
-    font-weight: 600;
-    display: grid;
-    font-family: Oswald;
-  
-  }
+.dopiy > p{
+  color: rgb(255, 255, 255);
+  font-size: 4rem;
+  font-weight: 600;
+  display: grid;
+  font-family: Oswald;
+
+}
 
 
 
 .dopiy > img{
-  width: 2rem;
-  display: grid;
+width: 2rem;
+display: grid;
 }
 .dopiy{
 padding: 1rem;
@@ -233,14 +241,15 @@ align-items: center;
 
 
 .fifthflex{
-  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: auto;
+/*background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;*/
+width: auto;
+background-color: rgb(16, 16, 190);
 margin-left: 0%;
-  font-family: gg sans;
+font-family: gg sans;
 height: 9rem;
 display: flex;
 align-items: center;
@@ -251,213 +260,209 @@ margin-bottom: 12rem;
 }
 
 .thirdgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
+width: auto;
+margin: 2rem;
+gap: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 14rem;
+display: flex;
 flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+    background-color: rgba(255, 255, 255, 0.3);
+
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .fourthgrid{
-  width: auto;
- margin-right: 2rem;
- margin-left: 2rem;
- margin-top: 14rem;
-  gap: 1.5rem;
-      padding: 1rem;
-      color: white;
-      font-size: 16px;
-   
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+width: auto;
+margin-right: 2rem;
+margin-left: 2rem;
+margin-top: 14rem;
+gap: 1.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 16px;
+ 
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+    backdrop-filter: blur(10px);
+
+    
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .fifthgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
+width: auto;
+margin: 2rem;
+gap: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 14rem;
+display: flex;
 flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+    backdrop-filter: blur(10px);
+
+
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .sixthgrid{
-  width: auto;
- margin-right: 2rem;
- margin-left: 2rem;
- margin-top: 14rem;
-  gap: 1.5rem;
-      padding: 1rem;
-      color: white;
-      font-size: 16px;
+width: auto;
+margin-right: 2rem;
+margin-left: 2rem;
+margin-top: 14rem;
+gap: 1.5rem;
+    padding: 1rem;
+    color: white;
+    font-size: 16px;
+ 
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+    background-color: rgba(255, 255, 255, 0.3);
+
    
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+
+    
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .seventhgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
+width: auto;
+margin: 2rem;
+gap: 1.5rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 14rem;
+display: flex;
 flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    background-color: rgba(255, 255, 255, 0.3);
+
+
+    backdrop-filter: blur(10px);
+
+    border-radius: 3rem;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .laststuff{
-  text-align: center;
+text-align: center;
 }
 
 .lasty{
-  color: rgb(255, 255, 255);
-  font-size: 6rem;
-  font-weight: 600;
-  font-family: Oswald;
+color: rgb(255, 255, 255);
+font-size: 6rem;
+font-weight: 600;
+font-family: Oswald;
 }
 
 
 
 .building{
-  display: flex;
-  align-items: center;
-  
+display: flex;
+align-items: center;
+
 }
 
 .hawk{
-  width: 20rem;
-  align-items: center;
-  text-align: center;
+width: 20rem;
+align-items: center;
+text-align: center;
 margin: auto;
 padding: auto;
 height: 3rem;
 }
 
 .hawk > p{
-  font-size: 1.2rem;
-  margin: auto;
+font-size: 1.2rem;
+margin: auto;
 }
 
 .disco{
-  width: 100%;
-  margin-bottom: -3px;
+width: 100%;
+margin-bottom: -3px;
 }
 
 footer{
-  width: auto;
-    background-color: rgb(89, 51, 255);
+width: auto;
+  background-color: rgb(89, 51, 255);
 padding: 4rem;
-display: grid;
-f
+display: flex;
+flex-direction: column;
 }
 
 hr{
-  margin-bottom: 0%;
-  width: 100%;
+margin-bottom: 0%;
+width: 100%;
 }
 
 .class{
-  color: white;
- 
+color: white;
+
 }
 
 .digital{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
+font-family: Nunito;
+color: white;
+font-weight: 200;
 }
 .digital > p:hover{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
-  text-decoration: underline;
+font-family: Nunito;
+color: white;
+font-weight: 200;
+text-decoration: underline;
 }
 .dgital{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
-  margin-left: 3rem;
+font-family: Nunito;
+color: white;
+font-weight: 200;
+margin-left: 3rem;
 }
 
 
 .kong{
-  width: 3rem;
+width: 3rem;
 margin-left: 1.7rem;
 }
 
 .spin{
-  width: 6.5rem;
-  height: 6.5rem;
-  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
-  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
+width: 6.5rem;
+height: 6.5rem;
+background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
+box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
 display: flex;
 align-items: center;
 
@@ -471,29 +476,29 @@ animation: spin 3s infinite ease;
 }
 
 @keyframes spin{
-  0%{
+0%{
 
-  }
+}
 
-  50%{
-    scale: 2;
-    transform: rotate(0);
-    border-radius: 2rem;
-  }
+50%{
+  scale: 2;
+  transform: rotate(0);
+  border-radius: 2rem;
+}
 
 100%{
- transform: rotate(360deg); 
- border-radius: 50%;
- scale: 2;
+transform: rotate(360deg); 
+border-radius: 50%;
+scale: 2;
 }
 }
 
 .flag{
-  width: 3rem;
+width: 3rem;
 }
 
 .feel{
-  display: grid;
+display: grid;
 flex-direction: row; 
 gap: 1rem;
 
@@ -502,33 +507,33 @@ gap: 1rem;
 
 
 .main{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5rem;
-  flex-direction: column;
-  width: 100%;
+display: flex;
+justify-content: space-between;
+margin-top: 5rem;
+flex-direction: column;
+width: 100%;
 }
 
- .nop{
-  width: 8rem;
+.nop{
+width: 8rem;
 }
 
 .main > .zopi > button{
-  width: 5rem;
-  color: white;
-  background-color: rgb(155, 138, 231);
+width: 5rem;
+color: white;
+background-color: rgb(155, 138, 231);
 }
 
 .main >  .zopi > button:hover{
-  width: 5rem;
-  color:rgb(155, 138, 231) ;
-  background-color: white;
+width: 5rem;
+color:rgb(155, 138, 231) ;
+background-color: white;
 }
 
 .main > button:active{
-  width: 5rem;
-  color: white;
-  background-color: rgb(155, 138, 231);
+width: 5rem;
+color: white;
+background-color: rgb(155, 138, 231);
 }
 
 .zopi{
@@ -538,100 +543,78 @@ margin-top: 2rem;
 }
 
 .fag{
-  width: 2rem;
+width: 2rem;
 }
 .x{
-  display: flex;
-  color: white;
-  font-family: gg sans;
-  font-weight: 100;
- word-spacing: .5rem;
+display: flex;
+color: white;
+font-family: gg sans;
+font-weight: 100;
+word-spacing: .5rem;
 }
 
 .shows{
-  display: flex;
- gap: 1rem;
+display: flex;
+gap: 1rem;
 }
 
 .zip{
-  display: flex;
-  gap: 2.3rem
+display: flex;
+gap: 2.3rem
 
 }
 
 .cass{
-  font-family: gg sans;
-  font-weight: 600;
-  text-decoration: none;
+font-family: gg sans;
+font-weight: 600;
+text-decoration: none;
 }
 
 .dope{
 
-  margin-top: auto;
-  
+margin-top: auto;
+
 }
 
 aside{
- display: grid;
+display: grid;
 }
 
 nav{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 200px) and (max-width: 600px) 
-{
+@media screen and (min-width: 200px) and (max-width: 600px) {
 
     .cud{
         width: 2rem;
         
     }
-
+.xia{
+        
+  animation: fade-in linear forwards;
+  animation-timeline: view();
+  animation-range: entry;
+scale: .1; opacity: 0;
+}
     .ion{
         display: none;
     }
     button {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255) 0.3 ease;
         color: rgb(0, 0, 0);
         
-        height: 2.5rem;
+        height: 2rem;
         cursor: pointer;
     
         border: none;
         font-family: gg sans;
         box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
-        border-radius: 1rem;
-      
+        border-radius: 2rem;
+transition: transform 0.3s ease;
         border-style: none;
         font-size: .9rem;
         font-weight: 700;
@@ -641,12 +624,14 @@ nav{
         color: rgb(255, 255, 255);
         background-color: rgb(0, 0, 0);
         transition: 0.3s;
+        transform: scale(1.2);
       }
     
       button:active {
         color: rgb(0, 0, 0);
         background-color: rgb(255, 255, 255);
         transition: 0.3s;
+
       }
 
 
@@ -656,22 +641,31 @@ nav{
         padding-top: 0.5rem;
         display: flex;
         height: auto;
-        justify-content: space-between;
-        padding-right: 1rem;
-      margin-top: 1rem;
+        padding: .5rem;
+ flex-wrap: wrap;
+ flex-direction: row;
+      justify-content: space-evenly;
+        padding-right: rem;
         font-weight: 600;
         align-items: center;
         font-family:  gg sans;
-     
+     background-color: rgba(0, 0, 255, 0) ;
+     z-index: 100;
+     top: 0;
+     left: 0;
+     right: 0;
+     position: fixed;
     }
 
     header > div > img{
         width: 7rem;
         margin-left: .7rem;
+        display: flex;
+        flex: 2;
     }
 
     .firstgrid{
-      margin-top: 1rem;
+      margin-top: 4rem;
       display: flex;
       margin-right: 1rem;
       flex-direction: column-reverse;
@@ -693,6 +687,8 @@ align-items: center;
 font-weight: 0%;
 margin-top: -1rem;
 font-size: .9rem;
+
+
     }
 
     .lk{
@@ -700,6 +696,7 @@ font-size: .9rem;
       color: white;
       font-size: 1.5rem;
       font-weight: 600;
+
     }
     .loi{
       color: rgb(221, 220, 220);
@@ -708,6 +705,11 @@ font-weight: 0%;
 margin-top: -1rem;
 font-size: .9rem;
 font-family: Nunito;
+
+animation: fade-in linear forwards;
+animation-timeline: view();
+animation-range: entry;
+scale: .8; opacity: 0;
     }
 
      
@@ -762,6 +764,12 @@ margin-right: auto;
               width: 100%;
               border-radius: 1.5rem;
               margin-bottom: -.5rem;
+       
+              animation: fade-in linear forwards;
+              animation-timeline: view();
+              animation-range: entry;
+scale: .8; opacity: 0;
+
             }
           
             .secondgrid {
@@ -788,6 +796,13 @@ margin-right: auto;
               border-radius: 1.5rem;
               border: 1px solid rgba(255, 255, 255, 0.4);
               box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+          }
+
+         
+
+          @keyframes fade-in{
+            to { scale: 1; opacity: 1;}
           }
 
           .fourthgrid{
@@ -829,7 +844,7 @@ margin-right: auto;
                 color: white;
                 font-size: 16px;
              
-                flex-direction: column-reverse;
+                flex-direction: column;
               display: flex;
           text-align: left;
           align-items: center;
@@ -858,7 +873,7 @@ margin-right: auto;
                 color: white;
                 font-size: 16px;
              
-                flex-direction: column-reverse;
+                flex-direction: column;
               display: flex;
           text-align: left;
           align-items: center;
@@ -954,8 +969,9 @@ footer{
   width: auto;
     background-color: rgb(89, 51, 255);
 padding: 1rem;
- display: grid;
-grid-template-columns: repeat(1fr 1fr);
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
  align-items: center;
  
 }
@@ -1133,51 +1149,37 @@ margin-left: 1.5rem;
 
 
 }
-@media screen and (min-width: 1000px) and (max-width: 2000px) {
+@media screen and (min-width: 600px) and (max-width: 900px) {
   .cud{
-    display: none;
+  display: none;
+  }
+  @keyframes fade-in{
+    to { scale: 1; opacity: 1;}
+  }
+  .ion{
+    display: flex;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-right: auto;
+    margin-left: 1rem;
+    align-items: center;
+ 
   }
 
-
-  header > div > img{
-    width: 8rem;
-    
-}
-
-marquee{
-animation: infinite;
-
-}
-
-header{
-    width: auto;
-    padding-left: 5.8rem;
-    padding-top: 0.5rem;
-    display: flex;
-    height: auto;
-    justify-content: space-between;
-    padding-right: 5.8rem;
-  
-    font-weight: 600;
-    align-items: center;
-    font-family:  gg sans;
- 
-}
-
-button {
-    background-color: rgb(255, 255, 255);
+  button {
+    background-color: rgb(255, 255, 255) 0.3 ease;
     color: rgb(0, 0, 0);
-    width: 4rem;
-    height: 2.5rem;
+    
+    height: 2rem;
     cursor: pointer;
 
     border: none;
     font-family: gg sans;
     box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
-    border-radius: 1.5rem;
-    margin-left: 3rem;
+    border-radius: 2rem;
+transition: transform 0.3s ease;
     border-style: none;
-    font-size: small;
+    font-size: .9rem;
     font-weight: 700;
   }
   
@@ -1185,6 +1187,7 @@ button {
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     transition: 0.3s;
+    transform: scale(1.2);
   }
 
   button:active {
@@ -1194,435 +1197,381 @@ button {
   }
 
 
-.ion{
-    margin-right: 10rem;
-    margin-left: 8rem;
-    flex: 1;
-    inline-size: 0%;
+  header{
+
+    width: auto;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
     display: flex;
-word-spacing: 0%;
-color: rgb(255, 255, 255);
+    height: auto;
+ 
     justify-content: space-between;
+    padding-right: 1rem;
+  margin-top: 1rem;
+  align-items: center;
+    font-weight: 600;
     align-items: center;
+    font-family:  gg sans;
+ 
 }
 
-.preconnect:hover{
-text-decoration: underline;
-cursor: pointer;
-}
-  
-
-.preconnect:active{
-  text-decoration: none;
-  cursor: pointer;
-  color: #000;
-  }
-
-.cud{
-  display: ;
+header > div > img{
+    width: 8rem;
+    margin-top: .5rem;
+    margin-left: .7rem;
 }
 
 .firstgrid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-left: 10rem;
+  margin-top: 1rem;
+  display: flex;
   margin-right: 1rem;
+  flex-direction: column-reverse;
+  gap: 2rem;
+ 
+  margin-left: 1rem;
+align-items: center;
 }
 .duy{
-  width: 45rem;
-height: rem;
+  width: 40rem;
 }
 .lok{
-  color: rgb(255, 255, 255);
+ text-align: center;
+  color: white;
   font-size: 4rem;
   font-weight: 600;
-  font-family: Oswald;
 }
-
 .loki{
   color: rgb(221, 220, 220);
-font-size: 1.5rem;
-margin-top: -2.5rem;
-font-weight: 400;
+  text-align: center;
+font-weight: 0%;
+margin-top: -1rem;
+font-size: 1.3rem;
+}
+
+.lk{
+  text-align: left;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.loi{
+  color: rgb(221, 220, 220);
+text-align: left;
+font-weight: 0%;
+margin-top: -1rem;
+font-size: .9rem;
 font-family: Nunito;
 }
-.hop{
-  width: fit-content;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-  margin-top: 5rem;
-  background-color: rgb(255, 255, 255);
-  display: flex;  
-  font-size: 1.3rem;
-  
-  align-items: center;
-  color: rgb(0, 0, 0);
+
+ 
+.unt{
+margin-left: auto;
+margin-right: auto;
+display: grid;
+row-gap: 1rem;
+margin-top: -3rem;
+
+grid-template-rows: auto;
+
   }
-  
+
   .hopi{
-    width: fit-content;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    margin-top: 5rem;
+    width: 20rem;
+margin: 1rem;
+ font-size: 1rem;
     background-color: rgb(255, 255, 255);
-    display: flex;  
-    font-size: 1.3rem;
-    
-    align-items: center;
+ border-radius: 5rem;
+margin-top: 0%;
+margin-left: auto;
+margin-right: auto;
     color: rgb(0, 0, 0);
     }
 
-  .hop > p{
-  font-weight: 100;
-    display: flex;
-    align-items: center;
-  
-    }
-  
-  .unt{
-    display: flex;
-    align-items: center;
-    margin-left: 25rem;
-  }
+  .hop{
+    border-radius: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+ font-size: 1rem;
+ width: 20rem;
+    background-color: rgb(255, 255, 255);
+
+    
    
-  .xia{
+    color: rgb(0, 0, 0);
+    }
+
+    .hop > p{
+      font-weight: 100;
+       margin-left: auto;
+       margin-right: auto;
+       
+       
+        }
+.hopi > p{
+margin-left: auto;
+margin-right: auto;
+}
+
+        video{
+          width: 100%;
+          border-radius: 1.5rem;
+          margin-bottom: -.5rem;
+                
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
+        }
+      
+        .xia{
+        margin-top: -1.5rem;
+              
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
+        }
+
+        .secondgrid {
+          width: auto;
+      margin-top: 10rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      gap: 1.5rem;
+          padding: 1rem;
+          color: white;
+          font-size: 16px;
+       
+          grid-template-columns: 1fr 1fr;
+        display: grid;
+    text-align: left;
+    
+          /* Transparent background */
+          background-color: rgba(255, 255, 255, 0.3);
+      
+          /* Apply blur effect */
+          backdrop-filter: blur(10px);
+      
+          /* Optional: Style the edges */
+          border-radius: 1.5rem;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .fourthgrid{
+       
   
-  }
+            width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
 
-  video{
-    width: 45rem;
-    border-radius: 3rem;
-  }
 
-      .lk{
+      .thirdgrid{
+        width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            display: flex;
+            flex-direction: row-reverse;
+      text-align: left;
+      
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .cud{
+        width: 2rem;
+        
+    }
+      .fifthflex{
+        display: none;
+      }
+      .fifthgrid{
+        width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            display: flex;
+            flex-direction: row-reverse;
+      text-align: left;
+      
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      .sixthgrid{
+        width: auto;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+         gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      
+      .seventhgrid{
+        width: auto;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        margin-top: 10rem;
+         gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+            display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+      .laststuff{
+        text-align: center;
+      }
+      
+      .lasty{
         color: rgb(255, 255, 255);
-        font-size: 4rem;
+        font-size: 2rem;
         font-weight: 600;
+        margin-left: 2rem;
+        margin-right: 2rem;
         font-family: Oswald;
-    }
-    .loi{
-      color: rgb(221, 220, 220);
-      font-size: 1.5rem;
-      margin-top: -2.5rem;
-      font-weight: 400;
-      font-family: Nunito;
+      }
 
-    }
-
-  .secondgrid {
-    width: auto;
-margin: 2rem;
-gap: 1.5rem;
-    padding: 1rem;
-    color: white;
-    font-size: 16px;
- 
-display: grid;
-grid-template-columns: 1fr 1fr;
-    /* Transparent background */
-    background-color: rgba(255, 255, 255, 0.3);
-
-    /* Apply blur effect */
-    backdrop-filter: blur(10px);
-
-    /* Optional: Style the edges */
-    border-radius: 3rem;
-    border: 1px solid rgba(255, 255, 255, 0.4);
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-
-  .dopiy > p{
-    color: rgb(255, 255, 255);
-    font-size: 4rem;
-    font-weight: 600;
-    display: grid;
-    font-family: Oswald;
-  
-  }
-
-
-
-.dopiy > img{
-  width: 2rem;
-  display: grid;
-}
-.dopiy{
-padding: 1rem;
-display: flex;
-justify-content: space-between;
-gap: 6rem;
-align-items: center;
-
-}
-
-
-.fifthflex{
-  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed;
-  width: auto;
-margin-left: 0%;
-  font-family: gg sans;
-height: 9rem;
-display: flex;
-align-items: center;
-backdrop-filter: blur(360);
-margin-top: 12rem;
-margin-bottom: 12rem;
-
-}
-
-.thirdgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
-flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.fourthgrid{
-  width: auto;
- margin-right: 2rem;
- margin-left: 2rem;
- margin-top: 14rem;
-  gap: 1.5rem;
-      padding: 1rem;
-      color: white;
-      font-size: 16px;
-   
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.fifthgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
-flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.sixthgrid{
-  width: auto;
- margin-right: 2rem;
- margin-left: 2rem;
- margin-top: 14rem;
-  gap: 1.5rem;
-      padding: 1rem;
-      color: white;
-      font-size: 16px;
-   
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.seventhgrid{
-  width: auto;
-  margin: 2rem;
-  gap: 1.5rem;
-      padding-left: 2rem;
-      padding-top: 1rem;
-      padding-right: 1rem;
-      padding-bottom: 1rem;
-      color: white;
-      font-size: 16px;
-      margin-top: 14rem;
-  display: flex;
-flex-direction: row-reverse;
-      /* Transparent background */
-      background-color: rgba(255, 255, 255, 0.3);
-  
-      /* Apply blur effect */
-      backdrop-filter: blur(10px);
-  
-      /* Optional: Style the edges */
-      border-radius: 3rem;
-      border: 1px solid rgba(255, 255, 255, 0.4);
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.laststuff{
-  text-align: center;
-}
-
-.lasty{
-  color: rgb(255, 255, 255);
-  font-size: 6rem;
-  font-weight: 600;
-  font-family: Oswald;
-}
-
-
-
-.building{
-  display: flex;
-  align-items: center;
-  
-}
 
 .hawk{
-  width: 20rem;
-  align-items: center;
-  text-align: center;
-margin: auto;
-padding: auto;
-height: 3rem;
+margin: 2rem;
+width: auto;
 }
 
-.hawk > p{
-  font-size: 1.2rem;
-  margin: auto;
-}
 
 .disco{
-  width: 100%;
-  margin-bottom: -3px;
+width: 100%;
+margin-bottom: -6px;
 }
 
 footer{
   width: auto;
-    background-color: rgb(89, 51, 255);
-padding: 4rem;
-display: grid;
-f
+  background-color: rgb(89, 51, 255);
+  padding: 1rem;
+  display: flex;
+  gap: 4rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  flex-direction: row;
+  align-items: center;
+
 }
 
+
 hr{
-  margin-bottom: 0%;
-  width: 100%;
+margin-bottom: 0%;
+width: 100%;
+
 }
 
 .class{
-  color: white;
- 
+color: white;
+
 }
 
 .digital{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
+font-family: Nunito;
+color: white;
+font-weight: 200;
 }
 .digital > p:hover{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
-  text-decoration: underline;
+font-family: Nunito;
+color: white;
+font-weight: 200;
+text-decoration: underline;
 }
 .dgital{
-  font-family: Nunito;
-  color: white;
-  font-weight: 200;
-  margin-left: 3rem;
+font-family: Nunito;
+color: white;
+font-weight: 200;
+margin-left: 2rem;
 }
 
-
-.kong{
-  width: 3rem;
-margin-left: 1.7rem;
-}
-
-.spin{
-  width: 6.5rem;
-  height: 6.5rem;
-  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
-  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
-display: flex;
-align-items: center;
-
-border-radius: 2rem;
-margin-left: 50%;
-margin-top: 20%;
-backdrop-filter: blur(360);
-
-animation: spin 3s infinite ease;
-
-}
-
-@keyframes spin{
-  0%{
-
-  }
-
-  50%{
-    scale: 2;
-    transform: rotate(0);
-    border-radius: 2rem;
-  }
-
-100%{
- transform: rotate(360deg); 
- border-radius: 50%;
- scale: 2;
-}
-}
 
 .flag{
-  width: 3rem;
+width: 2rem;
 }
 
 .feel{
-  display: grid;
+display: grid;
 flex-direction: row; 
 gap: 1rem;
 
@@ -1631,85 +1580,119 @@ gap: 1rem;
 
 
 .main{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 5rem;
-  flex-direction: column;
-  width: 100%;
-}
-
- .nop{
-  width: 8rem;
-}
-
-.main > .zopi > button{
-  width: 5rem;
-  color: white;
-  background-color: rgb(155, 138, 231);
-}
-
-.main >  .zopi > button:hover{
-  width: 5rem;
-  color:rgb(155, 138, 231) ;
-  background-color: white;
-}
-
-.main > button:active{
-  width: 5rem;
-  color: white;
-  background-color: rgb(155, 138, 231);
-}
-
-.zopi{
 display: flex;
 justify-content: space-between;
 margin-top: 2rem;
 }
 
+.main > div > img{
+width: 8rem;
+}
+
+.main > button{
+width: 5rem;
+color: white;
+background-color: rgb(155, 138, 231);
+}
+
+.main > button:hover{
+width: 5rem;
+color:rgb(155, 138, 231) ;
+background-color: white;
+}
+
+.main > button:active{
+width: 5rem;
+color: white;
+background-color: rgb(155, 138, 231);
+}
+
 .fag{
-  width: 2rem;
+width: 1rem;
 }
 .x{
-  display: flex;
-  color: white;
-  font-family: gg sans;
-  font-weight: 100;
- word-spacing: .5rem;
+display: flex;
+color: white;
+font-family: gg sans;
+font-weight: 100;
+word-spacing: .5rem;
 }
 
 .shows{
-  display: flex;
- gap: 1rem;
+display: flex;
+gap: 1rem;
 }
 
 .zip{
-  display: flex;
-  gap: 2.3rem
+display: flex;
+gap: 2.3rem
 
 }
 
 .cass{
-  font-family: gg sans;
-  font-weight: 600;
-  text-decoration: none;
+font-family: gg sans;
+font-weight: 600;
+text-decoration: none;
 }
 
 .dope{
 
-  margin-top: auto;
-  
+margin-top: auto;
+
 }
 
 aside{
- display: grid;
+display: grid;
 }
 
 nav{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+display: block;
+grid-template-rows: 1fr 1fr 1fr;
+
 }
 
 
+.spin{
+width: 5rem;
+height: 5rem;
+background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
+box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
+display: flex;
+align-items: center;
+margin-left: 7rem;
+border-radius: 2rem;
+margin-top: 17rem;
+backdrop-filter: blur(360);
+
+animation: spin 3s infinite ease;
+
+}
+
+@keyframes spin{
+0%{
+
+}
+
+50%{
+scale: 2;
+transform: rotate(0);
+border-radius: 2rem;
+}
+
+100%{
+transform: rotate(360deg); 
+border-radius: 50%;
+scale: 2;
+}
+
+
+
+}
+
+.kong{
+width: 2rem;
+margin-left: 1.5rem;
+}
 
 
 
@@ -1720,23 +1703,25 @@ nav{
   .cud{
   
   }
-
+  @keyframes fade-in{
+    to { scale: 1; opacity: 1;}
+  }
   .ion{
 display: none;
   }
 
   button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255) 0.3 ease;
     color: rgb(0, 0, 0);
     
-    height: 2.5rem;
+    height: 2rem;
     cursor: pointer;
 
     border: none;
     font-family: gg sans;
     box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
-    border-radius: 1rem;
-  
+    border-radius: 2rem;
+transition: transform 0.3s ease;
     border-style: none;
     font-size: .9rem;
     font-weight: 700;
@@ -1746,6 +1731,7 @@ display: none;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     transition: 0.3s;
+    transform: scale(1.2);
   }
 
   button:active {
@@ -1873,10 +1859,20 @@ margin-right: auto;
           width: 100%;
           border-radius: 1.5rem;
           margin-bottom: -.5rem;
+                
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
         }
       
         .xia{
         margin-top: -1.5rem;
+              
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
         }
 
         .secondgrid {
@@ -2074,13 +2070,16 @@ margin-top: ;
 }
 
 footer{
-width: auto;
-background-color: rgb(89, 51, 255);
-padding: 1rem;
-display: flex;
-flex-wrap: wrap;
-gap: 4rem;
-align-items: center;
+  width: auto;
+  background-color: rgb(89, 51, 255);
+  padding: 1rem;
+  display: flex;
+  gap: 100%;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+
+  flex-direction: row;
+  align-items: center;
 
 }
 
@@ -2246,28 +2245,34 @@ width: 2rem;
 margin-left: 1.5rem;
 }
 }
-
-@media screen and (min-width: 600px) and (max-width: 900px) {
+@media screen and (min-width: 1000px) and (max-width: 1100px) {
   .cud{
-  
+  display: none;
   }
-
+  @keyframes fade-in{
+    to { scale: 1; opacity: 1;}
+  }
   .ion{
-display: none;
+display: flex;
+justify-content: space-between;
+gap: auto;
+margin-right: 5rem;
+margin-left: 5rem;
+align-items: center;
   }
 
   button {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255) 0.3 ease;
     color: rgb(0, 0, 0);
     
-    height: 2.5rem;
+    height: 2rem;
     cursor: pointer;
 
     border: none;
     font-family: gg sans;
     box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
-    border-radius: 1rem;
-  
+    border-radius: 2rem;
+transition: transform 0.3s ease;
     border-style: none;
     font-size: .9rem;
     font-weight: 700;
@@ -2277,6 +2282,7 @@ display: none;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 0);
     transition: 0.3s;
+    transform: scale(1.2);
   }
 
   button:active {
@@ -2305,27 +2311,30 @@ display: none;
 }
 
 header > div > img{
-    width: 7rem;
+    width: 8rem;
     margin-left: .7rem;
+    margin-top: 0.5rem;
+
 }
 
 .firstgrid{
   margin-top: 1rem;
-  display: flex;
+  display: grid;
   margin-right: 1rem;
-  flex-direction: column-reverse;
-  gap: 2rem;
+grid-template-columns: 1fr 1fr;
+  gap: auto;
  
   margin-left: 1rem;
 align-items: center;
 }
 .duy{
   width: 40rem;
+
 }
 .lok{
- text-align: center;
+ text-align: left;
   color: white;
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .loki{
@@ -2334,12 +2343,13 @@ align-items: center;
 font-weight: 0%;
 margin-top: -1rem;
 font-size: 1.3rem;
+text-align: left;
 }
 
 .lk{
   text-align: left;
   color: white;
-  font-size: 1.5rem;
+  font-size: 3rem;
   font-weight: 600;
 }
 .loi{
@@ -2347,7 +2357,7 @@ font-size: 1.3rem;
 text-align: left;
 font-weight: 0%;
 margin-top: -1rem;
-font-size: .9rem;
+font-size: 1.5rem;
 font-family: Nunito;
 }
 
@@ -2403,11 +2413,20 @@ margin-right: auto;
         video{
           width: 100%;
           border-radius: 1.5rem;
-          margin-bottom: -.5rem;
+              
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
         }
       
         .xia{
-        margin-top: -1.5rem;
+margin-left: 1rem;
+      
+animation: fade-in linear forwards;
+animation-timeline: view();
+animation-range: entry;
+scale: .8; opacity: 0;
         }
 
         .secondgrid {
@@ -2423,7 +2442,7 @@ margin-right: auto;
           grid-template-columns: 1fr 1fr;
         display: grid;
     text-align: left;
-    
+    align-items: center;
           /* Transparent background */
           background-color: rgba(255, 255, 255, 0.3);
       
@@ -2457,12 +2476,32 @@ margin-right: auto;
         
             /* Apply blur effect */
             backdrop-filter: blur(10px);
-        
+        align-items: center;
             /* Optional: Style the edges */
             border-radius: 1.5rem;
             border: 1px solid rgba(255, 255, 255, 0.4);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
+/*.thirdgrid > div > video{
+  width: 100%;
+  height: auto;
+}
+
+
+.thirdgrid > .xia{
+margin-right: auto;
+
+}
+
+.thirdgrid > .xia > .loi{
+  font-size: 1rem;
+
+}
+
+.thirdgrid > .xia > .lk{
+  font-size: 3.5rem;
+
+}*/
 
 
       .thirdgrid{
@@ -2475,8 +2514,8 @@ margin-right: auto;
             color: white;
             font-size: 16px;
          
-            display: flex;
-            flex-direction: row-reverse;
+            grid-template-columns: 1fr 1fr;
+          display: grid;
       text-align: left;
       
             /* Transparent background */
@@ -2484,7 +2523,7 @@ margin-right: auto;
         
             /* Apply blur effect */
             backdrop-filter: blur(10px);
-        
+        align-items: center;
             /* Optional: Style the edges */
             border-radius: 1.5rem;
             border: 1px solid rgba(255, 255, 255, 0.4);
@@ -2495,32 +2534,32 @@ margin-right: auto;
         
     }
       .fifthflex{
-        display: none;
+        display: ;
       }
       .fifthgrid{
-        width: auto;
-        margin-top: 10rem;
-        margin-right: 2rem;
-        margin-left: 2rem;
-        gap: 1.5rem;
-            padding: 1rem;
-            color: white;
-            font-size: 16px;
-         
-            display: flex;
-            flex-direction: row-reverse;
-      text-align: left;
+      width: auto;
+      margin-top: 10rem;
+      margin-right: 2rem;
+      margin-left: 2rem;
+      gap: 1.5rem;
+          padding: 1rem;
+          color: white;
+          font-size: 16px;
+       
+          grid-template-columns: 1fr 1fr;
+        display: grid;
+    text-align: left;
+    align-items: center;
+          /* Transparent background */
+          background-color: rgba(255, 255, 255, 0.3);
       
-            /* Transparent background */
-            background-color: rgba(255, 255, 255, 0.3);
-        
-            /* Apply blur effect */
-            backdrop-filter: blur(10px);
-        
-            /* Optional: Style the edges */
-            border-radius: 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.4);
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+          /* Apply blur effect */
+          backdrop-filter: blur(10px);
+      
+          /* Optional: Style the edges */
+          border-radius: 1.5rem;
+          border: 1px solid rgba(255, 255, 255, 0.4);
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       }
       
       .sixthgrid{
@@ -2580,7 +2619,7 @@ margin-right: auto;
       
       .lasty{
         color: rgb(255, 255, 255);
-        font-size: 2rem;
+        font-size: 5rem;
         font-weight: 600;
         margin-left: 2rem;
         margin-right: 2rem;
@@ -2598,17 +2637,26 @@ width: auto;
 width: 100%;
 margin-bottom: -6px;
 }
-
+.feel{
+display: grid;
+flex-direction: row; 
+gap: 1rem;
+margin-top: -13rem;
+}
 footer{
 width: auto;
 background-color: rgb(89, 51, 255);
 padding: 1rem;
 display: flex;
+gap: 4rem;
+padding-top: 1rem;
 flex-wrap: wrap;
-gap: 2rem;
+padding-top: 6rem;
+flex-direction: row;
 align-items: center;
 
 }
+
 
 
 hr{
@@ -2626,6 +2674,7 @@ color: white;
 font-family: Nunito;
 color: white;
 font-weight: 200;
+
 }
 .digital > p:hover{
 font-family: Nunito;
@@ -2645,12 +2694,7 @@ margin-left: 2rem;
 width: 2rem;
 }
 
-.feel{
-display: grid;
-flex-direction: row; 
-gap: 1rem;
 
-}
 
 
 
@@ -2769,7 +2813,1163 @@ width: 2rem;
 margin-left: 1.5rem;
 }
 
+article{
+  margin-top: -16rem;
+}
+
+
 
 
 
 }
+@media screen and (min-width: 1100px) and (max-width: 1250px) {
+  .cud{
+    display: none;
+    }
+    @keyframes fade-in{
+      to { scale: 1; opacity: 1;}
+    }
+    .ion{
+  display: flex;
+  justify-content: space-between;
+  gap: auto;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  align-items: center;
+    }
+    button {
+      background-color: rgb(255, 255, 255) 0.3 ease;
+      color: rgb(0, 0, 0);
+      
+      height: 2rem;
+      cursor: pointer;
+  
+      border: none;
+      font-family: gg sans;
+      box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
+      border-radius: 2rem;
+transition: transform 0.3s ease;
+      border-style: none;
+      font-size: .9rem;
+      font-weight: 700;
+    }
+    
+    button:hover {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      transition: 0.3s;
+      transform: scale(1.2);
+    }
+  
+    button:active {
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+  
+  
+    header{
+  
+      width: auto;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      display: flex;
+      height: auto;
+   
+      justify-content: space-between;
+      padding-right: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+      font-weight: 600;
+      align-items: center;
+      font-family:  gg sans;
+   
+  }
+  
+  header > div > img{
+      width: 8rem;
+      margin-left: .7rem;
+      margin-top: 0.5rem;
+  
+  }
+  
+  .firstgrid{
+    margin-top: 1rem;
+    display: grid;
+    margin-right: 1rem;
+  grid-template-columns: 1fr 1fr;
+    gap: auto;
+   
+    margin-left: 1rem;
+  align-items: center;
+  }
+  .duy{
+    width: 40rem;
+  
+  }
+  .lok{
+   text-align: left;
+    color: white;
+    font-size: auto;
+    font-weight: 600;
+  }
+  .loki{
+    color: rgb(221, 220, 220);
+    text-align: center;
+  font-weight: 0%;
+  margin-top: -1rem;
+  font-size: 1.3rem;
+  text-align: left;
+  }
+  
+  .lk{
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .loi{
+    color: rgb(221, 220, 220);
+  text-align: left;
+  font-weight: 0%;
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  font-family: Nunito;
+  }
+  
+   
+  .unt{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  row-gap: 1rem;
+  margin-top: -3rem;
+  
+  grid-template-rows: auto;
+  
+    }
+  
+    .hopi{
+      width: 20rem;
+  margin: 1rem;
+   font-size: 1rem;
+      background-color: rgb(255, 255, 255);
+   border-radius: 5rem;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+      color: rgb(0, 0, 0);
+      }
+  
+    .hop{
+      border-radius: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+   font-size: 1rem;
+   width: 20rem;
+      background-color: rgb(255, 255, 255);
+  
+      
+     
+      color: rgb(0, 0, 0);
+      }
+  
+      .hop > p{
+        font-weight: 100;
+         margin-left: auto;
+         margin-right: auto;
+         
+         
+          }
+  .hopi > p{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+          video{
+            width: 100%;
+            border-radius: 1.5rem;
+                
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
+          }
+        
+          .xia{
+        
+            animation: fade-in linear forwards;
+            animation-timeline: view();
+            animation-range: entry;
+      scale: .8; opacity: 0;
+          }
+  
+          .secondgrid {
+            width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  
+        .fourthgrid{
+         
+    
+              width: auto;
+          margin-top: 10rem;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          align-items: center;
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  /*.thirdgrid > div > video{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .thirdgrid > .xia{
+  margin-right: auto;
+  
+  }
+  
+  .thirdgrid > .xia > .loi{
+    font-size: 1rem;
+  
+  }
+  
+  .thirdgrid > .xia > .lk{
+    font-size: 3.5rem;
+  
+  }*/
+  
+  
+        .thirdgrid{
+          width: auto;
+          margin-top: 10rem;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          align-items: center;
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cud{
+          width: 2rem;
+          
+      }
+        .fifthflex{
+          display: ;
+        }
+        .fifthgrid{
+        width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sixthgrid{
+          width: auto;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          margin-top: 10rem;
+           gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        align-items: center;
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .seventhgrid{
+          width: auto;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          margin-top: 10rem;
+           gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+              display: grid;
+        text-align: left;
+        align-items: center;
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .laststuff{
+          text-align: center;
+        }
+        
+        .lasty{
+          color: rgb(255, 255, 255);
+          font-size: 5rem;
+          font-weight: 600;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          font-family: Oswald;
+        }
+  
+  
+  .hawk{
+  margin: 2rem;
+  width: auto;
+  }
+  
+  
+  .disco{
+  width: 100%;
+  margin-bottom: -6px;
+  }
+  .feel{
+  display: grid;
+  flex-direction: row; 
+  gap: 1rem;
+  margin-top: -13rem;
+  }
+  footer{
+  width: auto;
+  background-color: rgb(89, 51, 255);
+  padding: 1rem;
+  display: flex;
+  gap: 15rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  flex-direction: row;
+  align-items: center;
+  
+  }
+  
+  
+  
+  hr{
+  margin-bottom: 0%;
+  width: 100%;
+  
+  }
+  
+  .class{
+  color: white;
+  
+  }
+  
+  .digital{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  
+  }
+  .digital > p:hover{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  text-decoration: underline;
+  }
+  .dgital{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  margin-left: 2rem;
+  }
+  
+  
+  .flag{
+  width: 2rem;
+  }
+  
+  
+  
+  
+  
+  .main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  }
+  
+  .main > div > img{
+  width: 8rem;
+  }
+  
+  .main > button{
+  width: 5rem;
+  color: white;
+  background-color: rgb(155, 138, 231);
+  }
+  
+  .main > button:hover{
+  width: 5rem;
+  color:rgb(155, 138, 231) ;
+  background-color: white;
+  }
+  
+  .main > button:active{
+  width: 5rem;
+  color: white;
+  background-color: rgb(155, 138, 231);
+  }
+  
+  .fag{
+  width: 1rem;
+  }
+  .x{
+  display: flex;
+  color: white;
+  font-family: gg sans;
+  font-weight: 100;
+  word-spacing: .5rem;
+  }
+  
+  .shows{
+  display: flex;
+  gap: 1rem;
+  }
+  
+  .zip{
+  display: flex;
+  gap: 2.3rem
+  
+  }
+  
+  .cass{
+  font-family: gg sans;
+  font-weight: 600;
+  text-decoration: none;
+  }
+  
+  .dope{
+  
+  margin-top: auto;
+  
+  }
+  
+  aside{
+  display: grid;
+  }
+  
+  nav{
+  display: block;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+  }
+  
+  
+  .spin{
+  width: 5rem;
+  height: 5rem;
+  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+  border-radius: 2rem;
+  margin-top: 17rem;
+  backdrop-filter: blur(360);
+  
+  animation: spin 3s infinite ease;
+  
+  }
+  
+  @keyframes spin{
+  0%{
+  
+  }
+  
+  50%{
+  scale: 2;
+  transform: rotate(0);
+  border-radius: 2rem;
+  }
+  
+  100%{
+  transform: rotate(360deg); 
+  border-radius: 50%;
+  scale: 2;
+  }
+  
+  
+  
+  }
+  
+  .kong{
+  width: 2rem;
+  margin-left: 1.5rem;
+  }
+  
+  article{
+    margin-top: -16rem;
+  }
+  
+  
+
+}
+@media screen and (min-width: 1250px) and (max-width: 2000px) {
+  .cud{
+    display: none;
+    }
+    @keyframes fade-in{
+      to { scale: 1; opacity: 1;}
+    }
+    .ion{
+  display: flex;
+  justify-content: space-between;
+  gap: auto;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  align-items: center;
+    }
+  
+    button {
+      background-color: rgb(255, 255, 255) 0.3 ease;
+      color: rgb(0, 0, 0);
+      
+      height: 2rem;
+      cursor: pointer;
+  
+      border: none;
+      font-family: gg sans;
+      box-shadow: 0 4px 10px rgba(90, 87, 87, 0.411);
+      border-radius: 2rem;
+transition: transform 0.3s ease;
+      border-style: none;
+      font-size: .9rem;
+      font-weight: 700;
+    }
+    
+    button:hover {
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      transition: 0.3s;
+      transform: scale(1.2);
+    }
+  
+  
+    button:active {
+      color: rgb(0, 0, 0);
+      background-color: rgb(255, 255, 255);
+      transition: 0.3s;
+    }
+  
+  
+    header{
+  
+      width: auto;
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      display: flex;
+      height: auto;
+   
+      justify-content: space-between;
+      padding-right: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+      font-weight: 600;
+      align-items: center;
+      font-family:  gg sans;
+   
+  }
+  
+  header > div > img{
+      width: 8rem;
+      margin-left: .7rem;
+      margin-top: 0.5rem;
+  
+  }
+  
+  .firstgrid{
+    margin-top: 1rem;
+    display: grid;
+    margin-right: 1rem;
+  grid-template-columns: 1fr 1fr;
+    gap: auto;
+   
+    margin-left: 1rem;
+  align-items: center;
+  }
+  .duy{
+    width: 40rem;
+  
+  }
+  .lok{
+   text-align: left;
+    color: white;
+    font-size: auto;
+    font-weight: 600;
+  }
+  .loki{
+    color: rgb(221, 220, 220);
+    text-align: center;
+  font-weight: 0%;
+  margin-top: -1rem;
+  font-size: 1.3rem;
+  text-align: left;
+  }
+  
+  .lk{
+    text-align: left;
+    color: white;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .loi{
+    color: rgb(221, 220, 220);
+  text-align: left;
+  font-weight: 0%;
+  margin-top: -1rem;
+  font-size: 1.5rem;
+  font-family: Nunito;
+  }
+  
+   
+  .unt{
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  row-gap: 1rem;
+  margin-top: -3rem;
+  
+  grid-template-rows: auto;
+  
+    }
+  
+    .hopi{
+      width: 20rem;
+  margin: 1rem;
+   font-size: 1rem;
+      background-color: rgb(255, 255, 255);
+   border-radius: 5rem;
+  margin-top: 0%;
+  margin-left: auto;
+  margin-right: auto;
+      color: rgb(0, 0, 0);
+      }
+  
+    .hop{
+      border-radius: 5rem;
+      margin-left: auto;
+      margin-right: auto;
+   font-size: 1rem;
+   width: 20rem;
+      background-color: rgb(255, 255, 255);
+  
+      
+     
+      color: rgb(0, 0, 0);
+      }
+  
+      .hop > p{
+        font-weight: 100;
+         margin-left: auto;
+         margin-right: auto;
+         
+         
+          }
+  .hopi > p{
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+          video{
+            width: 100%;
+            border-radius: 1.5rem;
+                
+      animation: fade-in linear forwards;
+      animation-timeline: view();
+      animation-range: entry;
+scale: .8; opacity: 0;
+          }
+        
+          .xia{
+        
+            animation: fade-in linear forwards;
+            animation-timeline: view();
+            animation-range: entry;
+      scale: .8; opacity: 0;
+          }
+  
+          .secondgrid {
+            width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  
+        .fourthgrid{
+         
+    
+              width: auto;
+          margin-top: 10rem;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          align-items: center;
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+  /*.thirdgrid > div > video{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .thirdgrid > .xia{
+  margin-right: auto;
+  
+  }
+  
+  .thirdgrid > .xia > .loi{
+    font-size: 1rem;
+  
+  }
+  
+  .thirdgrid > .xia > .lk{
+    font-size: 3.5rem;
+  
+  }*/
+  
+  
+        .thirdgrid{
+          width: auto;
+          margin-top: 10rem;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          align-items: center;
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .cud{
+          width: 2rem;
+          
+      }
+        .fifthflex{
+          display: ;
+        }
+        .fifthgrid{
+        width: auto;
+        margin-top: 10rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        gap: 1.5rem;
+            padding: 1rem;
+            color: white;
+            font-size: 16px;
+         
+            grid-template-columns: 1fr 1fr;
+          display: grid;
+      text-align: left;
+      align-items: center;
+            /* Transparent background */
+            background-color: rgba(255, 255, 255, 0.3);
+        
+            /* Apply blur effect */
+            backdrop-filter: blur(10px);
+        
+            /* Optional: Style the edges */
+            border-radius: 1.5rem;
+            border: 1px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .sixthgrid{
+          width: auto;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          margin-top: 10rem;
+           gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+            display: grid;
+        text-align: left;
+        align-items: center;
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        
+        .seventhgrid{
+          width: auto;
+          margin-right: 2rem;
+          margin-left: 2rem;
+          margin-top: 10rem;
+           gap: 1.5rem;
+              padding: 1rem;
+              color: white;
+              font-size: 16px;
+           
+              grid-template-columns: 1fr 1fr;
+              display: grid;
+        text-align: left;
+        align-items: center;
+              /* Transparent background */
+              background-color: rgba(255, 255, 255, 0.3);
+          
+              /* Apply blur effect */
+              backdrop-filter: blur(10px);
+          
+              /* Optional: Style the edges */
+              border-radius: 1.5rem;
+              border: 1px solid rgba(255, 255, 255, 0.4);
+              box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .laststuff{
+          text-align: center;
+        }
+        
+        .lasty{
+          color: rgb(255, 255, 255);
+          font-size: 5rem;
+          font-weight: 600;
+          margin-left: 2rem;
+          margin-right: 2rem;
+          font-family: Oswald;
+        }
+  
+  
+  .hawk{
+  margin: 2rem;
+  width: auto;
+  }
+  
+  
+  .disco{
+  width: 100%;
+  margin-bottom: -6px;
+  }
+  .feel{
+  display: grid;
+  flex-direction: row; 
+  gap: 1rem;
+  margin-top: -13rem;
+  }
+  footer{
+  width: auto;
+  background-color: rgb(89, 51, 255);
+  padding: 1rem;
+  display: flex;
+  gap: 10rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  padding-top: 6rem;
+  flex-direction: row;
+  align-items: center;
+  
+  }
+  
+  
+  
+  hr{
+  margin-bottom: 0%;
+  width: 100%;
+  
+  }
+  
+  .class{
+  color: white;
+  
+  }
+  
+  .digital{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  
+  }
+  .digital > p:hover{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  text-decoration: underline;
+  }
+  .dgital{
+  font-family: Nunito;
+  color: white;
+  font-weight: 200;
+  margin-left: 2rem;
+  }
+  
+  
+  .flag{
+  width: 2rem;
+  }
+  
+  
+  
+  
+  
+  .main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  }
+  
+  .main > div > img{
+  width: 8rem;
+  }
+  
+  .main > button{
+  width: 5rem;
+  color: white;
+  background-color: rgb(155, 138, 231);
+  }
+  
+  .main > button:hover{
+  width: 5rem;
+  color:rgb(155, 138, 231) ;
+  background-color: white;
+  }
+  
+  .main > button:active{
+  width: 5rem;
+  color: white;
+  background-color: rgb(155, 138, 231);
+  }
+  
+  .fag{
+  width: 1rem;
+  }
+  .x{
+  display: flex;
+  color: white;
+  font-family: gg sans;
+  font-weight: 100;
+  word-spacing: .5rem;
+  }
+  
+  .shows{
+  display: flex;
+  gap: 1rem;
+  }
+  
+  .zip{
+  display: flex;
+  gap: 2.3rem
+  
+  }
+  
+  .cass{
+  font-family: gg sans;
+  font-weight: 600;
+  text-decoration: none;
+  }
+  
+  .dope{
+  
+  margin-top: auto;
+  
+  }
+  
+  aside{
+  display: grid;
+  }
+  
+  nav{
+  display: block;
+  grid-template-rows: 1fr 1fr 1fr;
+  
+  }
+  
+  
+  .spin{
+  width: 5rem;
+  height: 5rem;
+  background-image: url('/vivid-blurred-colorful-wallpaper-background_58702-3763.jpg');
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.411);
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+  border-radius: 2rem;
+  margin-top: 17rem;
+  backdrop-filter: blur(360);
+  
+  animation: spin 3s infinite ease;
+  
+  }
+  
+  @keyframes spin{
+  0%{
+  
+  }
+  
+  50%{
+  scale: 2;
+  transform: rotate(0);
+  border-radius: 2rem;
+  }
+  
+  100%{
+  transform: rotate(360deg); 
+  border-radius: 50%;
+  scale: 2;
+  }
+  
+  
+  
+  }
+  
+  .kong{
+  width: 2rem;
+  margin-left: 1.5rem;
+  }
+  
+  article{
+    margin-top: -16rem;
+  }
+  
+  
+
+}
+
+
+
